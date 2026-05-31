@@ -1,10 +1,15 @@
 {
-  "name": "prentrega",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "name": "clase0901",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "start": "node index.js",
+    "dev": "node --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
